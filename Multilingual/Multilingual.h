@@ -8,4 +8,4 @@
 
 
 #import "LanguageManager.h"
-#import "NSBundle+Langage.h"
+#import "NSBundle+Language.h"

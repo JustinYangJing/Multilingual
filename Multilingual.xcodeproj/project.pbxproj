@@ -16,6 +16,8 @@
 		1BFF55E21F24ABFA0017AAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF55E01F24ABFA0017AAD1 /* Main.storyboard */; };
 		1BFF55E41F24ABFA0017AAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF55E31F24ABFA0017AAD1 /* Assets.xcassets */; };
 		1BFF55E71F24ABFA0017AAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF55E51F24ABFA0017AAD1 /* LaunchScreen.storyboard */; };
+		1BFF55F21F24BD3C0017AAD1 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF55CE1F24A9E30017AAD1 /* NSBundle+Language.m */; };
+		1BFF55F31F24BD410017AAD1 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF55CC1F24A9E30017AAD1 /* LanguageManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +53,7 @@
 		1BFF55EC1F24AC3A0017AAD1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		1BFF55ED1F24AC3A0017AAD1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		1BFF55EF1F24AC530017AAD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1BFF55F11F24B44C0017AAD1 /* Multilingual.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Multilingual.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 		1BFF55B41F24A5880017AAD1 = {
 			isa = PBXGroup;
 			children = (
+				1BFF55F11F24B44C0017AAD1 /* Multilingual.podspec */,
 				1BFF55BF1F24A5880017AAD1 /* Multilingual */,
 				1BFF55D61F24ABFA0017AAD1 /* MultilingualDemo */,
 				1BFF55BE1F24A5880017AAD1 /* Products */,
@@ -254,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFF55F31F24BD410017AAD1 /* LanguageManager.m in Sources */,
+				1BFF55F21F24BD3C0017AAD1 /* NSBundle+Language.m in Sources */,
 				1BFF55DF1F24ABFA0017AAD1 /* ViewController.m in Sources */,
 				1BFF55DC1F24ABFA0017AAD1 /* AppDelegate.m in Sources */,
 				1BFF55D91F24ABFA0017AAD1 /* main.m in Sources */,
