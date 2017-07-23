@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Multilingual
+
+  Created by JustinYang on 2017/7/23.
+  Copyright © 2017年 JustinYang. All rights reserved.
+*/
+//以中文作为key，中文的.strings文件可以不用写key = value
+"Localizable中的文字" = "Localizable中的文字";

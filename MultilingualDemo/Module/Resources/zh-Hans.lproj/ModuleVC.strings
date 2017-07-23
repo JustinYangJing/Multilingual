@@ -1,0 +1,20 @@
+
+
+//##################################################################################
+//#           AutoGenStrings            2017-07-23 22:13:50
+//##################################################################################
+
+/* Class = "UILabel"; text = "设置语言"; ObjectID = "5FX-3N-2jD"; */
+"5FX-3N-2jD.text" = "设置语言";
+
+/* Class = "UIButton"; normalTitle = "英文"; ObjectID = "3gN-OC-Ia0"; */
+"3gN-OC-Ia0.normalTitle" = "英文";
+
+/* Class = "UILabel"; text = "当前语言:"; ObjectID = "CT3-VS-gGR"; */
+"CT3-VS-gGR.text" = "当前语言:";
+
+/* Class = "UIButton"; normalTitle = "中文"; ObjectID = "VpC-w9-F7i"; */
+"VpC-w9-F7i.normalTitle" = "中文";
+
+/* Class = "UILabel"; text = "未知"; ObjectID = "yd7-gO-ClP"; */
+"yd7-gO-ClP.text" = "未知";

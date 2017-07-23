@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModuleVC">
+            <connections>
+                <outlet property="languageLabel" destination="yd7-gO-ClP" id="uh7-PJ-ZHF"/>
+                <outlet property="view" destination="iN0-l3-epB" id="uyC-gZ-J7Y"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前语言:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CT3-VS-gGR">
+                    <rect key="frame" x="28" y="87" width="74" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yd7-gO-ClP">
+                    <rect key="frame" x="121" y="87" width="35" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置语言" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FX-3N-2jD">
+                    <rect key="frame" x="28" y="250" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VpC-w9-F7i">
+                    <rect key="frame" x="123" y="245.5" width="31" height="30"/>
+                    <state key="normal" title="中文"/>
+                    <connections>
+                        <action selector="setChiese:" destination="-1" eventType="touchUpInside" id="rsc-Yg-476"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gN-OC-Ia0">
+                    <rect key="frame" x="215" y="245.5" width="31" height="30"/>
+                    <state key="normal" title="英文"/>
+                    <connections>
+                        <action selector="setEnglish:" destination="-1" eventType="touchUpInside" id="g8b-KG-Kux"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yd7-gO-ClP" firstAttribute="baseline" secondItem="CT3-VS-gGR" secondAttribute="baseline" id="0ft-qe-aQ2"/>
+                <constraint firstItem="5FX-3N-2jD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="250" id="1XA-sV-wIX"/>
+                <constraint firstItem="VpC-w9-F7i" firstAttribute="leading" secondItem="5FX-3N-2jD" secondAttribute="trailing" constant="25" id="Cgm-3p-b3i"/>
+                <constraint firstItem="CT3-VS-gGR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="QAP-ny-jWb"/>
+                <constraint firstItem="3gN-OC-Ia0" firstAttribute="centerY" secondItem="5FX-3N-2jD" secondAttribute="centerY" id="bLM-6I-KtX"/>
+                <constraint firstItem="CT3-VS-gGR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="87" id="dXj-U4-QXu"/>
+                <constraint firstItem="VpC-w9-F7i" firstAttribute="centerY" secondItem="5FX-3N-2jD" secondAttribute="centerY" id="e7P-Qe-e8O"/>
+                <constraint firstItem="5FX-3N-2jD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="ove-Gg-Z40"/>
+                <constraint firstItem="3gN-OC-Ia0" firstAttribute="leading" secondItem="VpC-w9-F7i" secondAttribute="trailing" constant="61" id="ta4-8s-SS4"/>
+                <constraint firstItem="yd7-gO-ClP" firstAttribute="leading" secondItem="CT3-VS-gGR" secondAttribute="trailing" constant="19" id="wOh-fV-GlO"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

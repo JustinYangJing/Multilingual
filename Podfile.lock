@@ -1,13 +1,13 @@
 PODS:
-  - Multilingual (0.0.1):
-    - Multilingual/Language (= 0.0.1)
-  - Multilingual/Language (0.0.1)
+  - Multilingual (0.0.2):
+    - Multilingual/Language (= 0.0.2)
+  - Multilingual/Language (0.0.2)
 
 DEPENDENCIES:
   - Multilingual
 
 SPEC CHECKSUMS:
-  Multilingual: 134b413d24e6577e04168f001d5d7e25860f338d
+  Multilingual: 71b348abc884d0572fee80ab686e026b4806509f
 
 PODFILE CHECKSUM: 23a85c855f74184b4d1c0802411597eafd2e177c
 

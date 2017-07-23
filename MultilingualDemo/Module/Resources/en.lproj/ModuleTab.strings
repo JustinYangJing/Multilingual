@@ -1,0 +1,12 @@
+/* 
+  Module.strings
+  Multilingual
+
+  Created by JustinYang on 2017/7/23.
+  Copyright © 2017年 JustinYang. All rights reserved.
+*/
+"未知" = "unknow";
+"中文" = "Chinese";
+"英文" = "English";
+
+"国际化" = "Multi Language";

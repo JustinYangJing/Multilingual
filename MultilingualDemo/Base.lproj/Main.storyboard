@@ -36,7 +36,20 @@
                     <view key="view" contentMode="scaleToFill" id="Rf2-XY-9Y2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9U-Hi-SDZ">
+                                <rect key="frame" x="149" y="109" width="77" height="30"/>
+                                <state key="normal" title="下一个界面"/>
+                                <connections>
+                                    <action selector="nextVC:" destination="zv9-r7-4EK" eventType="touchUpInside" id="hB7-Ub-YcZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="n9U-Hi-SDZ" firstAttribute="top" secondItem="9tE-kw-KH3" secondAttribute="bottom" constant="45" id="OLM-gV-ssb"/>
+                            <constraint firstItem="n9U-Hi-SDZ" firstAttribute="centerX" secondItem="Rf2-XY-9Y2" secondAttribute="centerX" id="cJT-4L-t4J"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CmG-TF-oLX"/>
                 </viewController>

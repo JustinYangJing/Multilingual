@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Multilingual.h"
+#import "ModuleVC.h"
 @interface ViewController ()
 
 @end
@@ -17,9 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [LanguageManager setupCurrentLanguage];
+    
+    UILabel *label = [UILabel new];
+    label.text = NSLocalizedString(@"Localizable中的文字", @"");
+    [label sizeToFit];
+    [self.view addSubview:label];
+    label.center = self.view.center;
 }
 
+- (IBAction)nextVC:(id)sender {
+    [self.navigationController pushViewController:[[ModuleVC alloc] init] animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
