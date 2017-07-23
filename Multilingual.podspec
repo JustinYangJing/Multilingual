@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Multilingual"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "国际化支持"
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
     国际化支持：应用内切换语言，切换语言后，请重新设置设置Appdelegate.window.rootViewController
-    AutoGenStrings.py脚本会将除开Pod中的xib，storyboard对应的.strings文件国际化
+    AutoGenStrings.py脚本处理xib，storyboard对应的.strings文件国际化
                    DESC
 
   s.homepage     = "https://github.com/JustinYangJing/Multilingual.git"
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Multilingual/*.{h,m}"
+  s.source_files  = "Multilingual/*.{h,m,py}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
