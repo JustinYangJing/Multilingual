@@ -224,7 +224,7 @@
 				1BFF55D31F24ABFA0017AAD1 /* Resources */,
 				D6801FFED1FB8A4EAE936EFB /* [CP] Embed Pods Frameworks */,
 				7C4565AD5B3C267045E4590D /* [CP] Copy Pods Resources */,
-				1BFF55F41F24DAED0017AAD1 /* ShellScript */,
+				1BFF561C1F25906E0017AAD1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -306,7 +306,7 @@
 			shellPath = /bin/sh;
 			shellScript = "echo -e \"testtest\"\npwd\necho ${SRCROOT}\necho ${TARGET_NAME}";
 		};
-		1BFF55F41F24DAED0017AAD1 /* ShellScript */ = {
+		1BFF561C1F25906E0017AAD1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

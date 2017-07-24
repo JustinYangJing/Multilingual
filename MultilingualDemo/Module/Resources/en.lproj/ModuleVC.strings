@@ -17,3 +17,10 @@
 
 /* Class = "UILabel"; text = "未知"; ObjectID = "yd7-gO-ClP"; */
 "yd7-gO-ClP.text" = "Unknow";
+
+//##################################################################################
+//#           AutoGenStrings            2017-07-24 10:52:18
+//##################################################################################
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HaH-p0-rBd"; */
+//"HaH-p0-rBd.normalTitle" = "Button";

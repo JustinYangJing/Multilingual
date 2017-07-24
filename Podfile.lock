@@ -4,11 +4,20 @@ PODS:
   - Multilingual/Language (0.0.2)
 
 DEPENDENCIES:
-  - Multilingual
+  - Multilingual (from `https://github.com/JustinYangJing/Multilingual.git`)
+
+EXTERNAL SOURCES:
+  Multilingual:
+    :git: https://github.com/JustinYangJing/Multilingual.git
+
+CHECKOUT OPTIONS:
+  Multilingual:
+    :commit: c700898fce06bcd7d67d9eae182947aa69c496f4
+    :git: https://github.com/JustinYangJing/Multilingual.git
 
 SPEC CHECKSUMS:
-  Multilingual: 71b348abc884d0572fee80ab686e026b4806509f
+  Multilingual: a0db46690c145bde5405f6ad23fd03102c082938
 
-PODFILE CHECKSUM: 23a85c855f74184b4d1c0802411597eafd2e177c
+PODFILE CHECKSUM: ef3da81b1905ea6f571261ba0402aee5d0ea5ccf
 
 COCOAPODS: 1.2.0
