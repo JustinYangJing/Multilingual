@@ -11,6 +11,7 @@
 #import "AppDelegate.h"
 @interface ModuleVC ()
 @property (weak, nonatomic) IBOutlet UILabel *languageLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *ImgView;
 
 @end
 
@@ -31,6 +32,8 @@
     [label sizeToFit];
     [self.view addSubview:label];
     label.center = CGPointMake(self.view.center.x, self.view.frame.size.height - 50);
+    
+    self.ImgView.image = [UIImage imageNamed:@"120"];
 }
 - (IBAction)setChiese:(id)sender {
     [self setLanguageWithCode:@"zh-Hans"];

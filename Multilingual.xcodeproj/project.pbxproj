@@ -20,6 +20,7 @@
 		1BFF55FF1F24E0520017AAD1 /* ModuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF55FE1F24E0520017AAD1 /* ModuleVC.m */; };
 		1BFF56091F24E1240017AAD1 /* ModuleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF560B1F24E1240017AAD1 /* ModuleVC.xib */; };
 		1BFF56121F24E1870017AAD1 /* ModuleTab.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF56141F24E1870017AAD1 /* ModuleTab.strings */; };
+		1BFF561F1F25DB010017AAD1 /* 120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFF56211F25DB010017AAD1 /* 120@2x.png */; };
 		CE116F49D1ED8CED2F24EA3C /* libPods-MultilingualDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 589EF6AB51CEAF5FF68AB525 /* libPods-MultilingualDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -64,8 +65,10 @@
 		1BFF560A1F24E1240017AAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ModuleVC.xib; sourceTree = "<group>"; };
 		1BFF56131F24E1870017AAD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ModuleTab.strings; sourceTree = "<group>"; };
 		1BFF56151F24E18A0017AAD1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ModuleTab.strings"; sourceTree = "<group>"; };
-		1BFF56171F24E3A50017AAD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ModuleVC.strings; sourceTree = "<group>"; };
 		1BFF56191F24E3A80017AAD1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ModuleVC.strings"; sourceTree = "<group>"; };
+		1BFF56201F25DB010017AAD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/120@2x.png"; sourceTree = "<group>"; };
+		1BFF56221F25DB030017AAD1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/120@2x.png"; sourceTree = "<group>"; };
+		1BFF56241F25E01E0017AAD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ModuleVC.strings; sourceTree = "<group>"; };
 		2FABA164B5860ABC5B0EE244 /* Pods-MultilingualDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultilingualDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultilingualDemo/Pods-MultilingualDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		589EF6AB51CEAF5FF68AB525 /* libPods-MultilingualDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultilingualDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CDF02CD452D1E4B2646C3A /* Pods-MultilingualDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultilingualDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultilingualDemo/Pods-MultilingualDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +173,7 @@
 		1BFF55FC1F24DFFB0017AAD1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1BFF56211F25DB010017AAD1 /* 120@2x.png */,
 				1BFF560B1F24E1240017AAD1 /* ModuleVC.xib */,
 				1BFF56141F24E1870017AAD1 /* ModuleTab.strings */,
 			);
@@ -285,6 +289,7 @@
 				1BFF56091F24E1240017AAD1 /* ModuleVC.xib in Resources */,
 				1BFF55F71F24DE370017AAD1 /* Localizable.strings in Resources */,
 				1BFF55E41F24ABFA0017AAD1 /* Assets.xcassets in Resources */,
+				1BFF561F1F25DB010017AAD1 /* 120@2x.png in Resources */,
 				1BFF56121F24E1870017AAD1 /* ModuleTab.strings in Resources */,
 				1BFF55E21F24ABFA0017AAD1 /* Main.storyboard in Resources */,
 			);
@@ -422,8 +427,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				1BFF560A1F24E1240017AAD1 /* Base */,
-				1BFF56171F24E3A50017AAD1 /* en */,
 				1BFF56191F24E3A80017AAD1 /* zh-Hans */,
+				1BFF56241F25E01E0017AAD1 /* en */,
 			);
 			name = ModuleVC.xib;
 			path = Module/Resources;
@@ -437,6 +442,15 @@
 			);
 			name = ModuleTab.strings;
 			path = Module/Resources;
+			sourceTree = "<group>";
+		};
+		1BFF56211F25DB010017AAD1 /* 120@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BFF56201F25DB010017AAD1 /* en */,
+				1BFF56221F25DB030017AAD1 /* zh-Hans */,
+			);
+			name = "120@2x.png";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

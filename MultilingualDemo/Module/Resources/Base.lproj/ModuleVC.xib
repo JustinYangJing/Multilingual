@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModuleVC">
             <connections>
+                <outlet property="ImgView" destination="kf9-K3-YZV" id="7hQ-K5-oeh"/>
                 <outlet property="languageLabel" destination="yd7-gO-ClP" id="uh7-PJ-ZHF"/>
                 <outlet property="view" destination="iN0-l3-epB" id="uyC-gZ-J7Y"/>
             </connections>
@@ -52,20 +53,26 @@
                         <action selector="setEnglish:" destination="-1" eventType="touchUpInside" id="g8b-KG-Kux"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kf9-K3-YZV">
+                    <rect key="frame" x="157.5" y="515" width="60" height="60"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="yd7-gO-ClP" firstAttribute="baseline" secondItem="CT3-VS-gGR" secondAttribute="baseline" id="0ft-qe-aQ2"/>
                 <constraint firstItem="5FX-3N-2jD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="250" id="1XA-sV-wIX"/>
                 <constraint firstItem="VpC-w9-F7i" firstAttribute="leading" secondItem="5FX-3N-2jD" secondAttribute="trailing" constant="25" id="Cgm-3p-b3i"/>
+                <constraint firstAttribute="bottom" secondItem="kf9-K3-YZV" secondAttribute="bottom" constant="92" id="H4p-TS-gX9"/>
                 <constraint firstItem="CT3-VS-gGR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="QAP-ny-jWb"/>
                 <constraint firstItem="3gN-OC-Ia0" firstAttribute="centerY" secondItem="5FX-3N-2jD" secondAttribute="centerY" id="bLM-6I-KtX"/>
+                <constraint firstItem="kf9-K3-YZV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dAS-2d-Q1w"/>
                 <constraint firstItem="CT3-VS-gGR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="87" id="dXj-U4-QXu"/>
                 <constraint firstItem="VpC-w9-F7i" firstAttribute="centerY" secondItem="5FX-3N-2jD" secondAttribute="centerY" id="e7P-Qe-e8O"/>
                 <constraint firstItem="5FX-3N-2jD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="28" id="ove-Gg-Z40"/>
                 <constraint firstItem="3gN-OC-Ia0" firstAttribute="leading" secondItem="VpC-w9-F7i" secondAttribute="trailing" constant="61" id="ta4-8s-SS4"/>
                 <constraint firstItem="yd7-gO-ClP" firstAttribute="leading" secondItem="CT3-VS-gGR" secondAttribute="trailing" constant="19" id="wOh-fV-GlO"/>
             </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>
     </objects>
 </document>
