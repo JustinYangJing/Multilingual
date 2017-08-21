@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Multilingual"
-  s.version      = "0.0.2"
+  s.version      = "1.0.0"
   s.summary      = "国际化支持"
 
   # This description is used to generate tags and improve search results.

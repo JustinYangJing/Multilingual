@@ -23,6 +23,7 @@
     [label sizeToFit];
     [self.view addSubview:label];
     label.center = self.view.center;
+    
 }
 
 - (IBAction)nextVC:(id)sender {
