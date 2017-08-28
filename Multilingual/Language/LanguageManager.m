@@ -24,7 +24,7 @@ static NSString * const LanguageSaveKey = @"userLanguage";
         NSArray *languages = [[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"];
         if (languages.count > 0) {
             currentLanguage = languages[0];
-            if ([currentLanguage containsString:@"zh-Hans-CN"]) {
+            if ([currentLanguage containsString:@"zh-Hans"]) {
                 currentLanguage = [currentLanguage substringToIndex:7];
             }
             [[NSUserDefaults standardUserDefaults] setObject:currentLanguage forKey:LanguageSaveKey];
