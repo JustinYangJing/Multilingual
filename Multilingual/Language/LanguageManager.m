@@ -24,8 +24,9 @@ static NSString * const LanguageSaveKey = @"userLanguage";
         NSArray *languages = [[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"];
         if (languages.count > 0) {
             currentLanguage = languages[0];
-            if ([currentLanguage containsString:@"zh-Hans"]) {
-                currentLanguage = [currentLanguage substringToIndex:7];
+            if ([currentLanguage containsString:@"-"]) {
+                NSRange range = [currentLanguage rangeOfString:@"-" options:NSBackwardsSearch];
+                currentLanguage = [currentLanguage substringToIndex:range.location];
             }
             [[NSUserDefaults standardUserDefaults] setObject:currentLanguage forKey:LanguageSaveKey];
             [[NSUserDefaults standardUserDefaults] synchronize];

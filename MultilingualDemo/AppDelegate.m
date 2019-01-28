@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import <Multilingual/Multilingual.h>
+//#import <Multilingual/Multilingual.h>
+#import "Multilingual.h"
 @interface AppDelegate ()
 
 @end

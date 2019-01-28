@@ -7,7 +7,8 @@
 //
 
 #import "ModuleVC.h"
-#import <Multilingual/LanguageManager.h>
+//#import <Multilingual/LanguageManager.h>
+#import "Multilingual.h"
 #import "AppDelegate.h"
 @interface ModuleVC ()
 @property (weak, nonatomic) IBOutlet UILabel *languageLabel;
